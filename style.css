@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Single+Day&display=swap');
+body {
+
+    background: radial-gradient(circle, rgba(174, 194, 238, 1) 0%, rgba(148, 228, 233, 1) 52%);
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    text-align: center;
+    border: solid 2px white;
+    margin: 5px 40px 5px 40px;
+    padding: 20px;
+
+
+}
+
+
+.linha{ 
+ 
+background-color: white; 
+height: 2px;
+width: 12px;
+margin: 0 auto;
+
+}
+.container img{
+    width: 150px;
+    
+
+}
+.caixa {
+    display: flex;
+
+    margin: 1px 200px 50px 200px;
+    padding: 80px;
+    background-color: black;
+    flex-direction: column;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center; 
+   
+
+}
+
+.produto {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.texto {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+
+
+}
+
+.explorar {
+    color: aqua;
+    text-align: center;
+    font-family: 'Single Day', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
